@@ -1,8 +1,8 @@
 # Variables
 COQ_MAKEFILE ?= coq_makefile
 COQTOP       ?= coqtop
-DKCHECK      ?= dkcheck
-DKDEP        ?= dkdep
+DKCHECK      ?= dk check
+DKDEP        ?= dk dep
 VERBOSE      ?=
 
 CAMLFLAGS="-bin-annot -annot"
