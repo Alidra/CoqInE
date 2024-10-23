@@ -10,7 +10,7 @@ dev-repo: "git+https://github.com/Deducteam/CoqInE"
 build: [make "plugin"]
 install: [make "install"]
 remove: [make "uninstall"]
-available: [ ocaml-version >= "4.06" ]
+available: [ ocaml-version >= "4.08" ]
 depends: [
   "menhir"
   "coq"  {= "8.8.2"}

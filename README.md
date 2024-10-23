@@ -26,6 +26,8 @@ Make sure the following dependencies are installed
 
 Warning: the version of OCaml used to compile CoqInE must be the same as the one used to compile the Coq program that generates the `.vo` files you want to translate.
 
+Warning: currently, CoqInE has been tested to work properly with OCaml version 4.08.0, Coq version 8.8.2 and Dedukti version 2.7. Work is on progress to support more recent versions.
+
 Installation steps:
 ```
 git clone https://github.com/Deducteam/CoqInE.git
